@@ -1,17 +1,18 @@
 #!bin/bash
-echo "enter a value: "
-read a
-echo "enter b value : "
-read b
-if [ $a == $b ]
-then
-        echo "a is equal to b"
-elif
-        echo " a is not equal to b"
-then 
+echo -e "enter a value: "
+read -r a
+echo -e "enter b value : "
+read -r b
+echo -e "enter c value: "
+read -r c
+if [ $a -gt $b -a  $a -gt $c ]; then
+        echo " a is big "
+elif [ $b -gt $c]; then
+        echo " b is big "
 
-else 
 
-   echo " give correct inputs"
+else
+
+   echo " c is big"
 
 fi   
