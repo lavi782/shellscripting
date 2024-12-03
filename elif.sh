@@ -7,7 +7,7 @@ echo -e "enter c value: "
 read -r c
 if [ $a -gt $b -a  $a -gt $c ]; then
         echo " a is big "
-elif [ $b -gt $c]; then
+elif [ $b -gt $c ]: then
         echo " b is big "
 
 
