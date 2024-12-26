@@ -1,4 +1,4 @@
 #!/bin/bash
 for i in 1 2 3 ; do
-echo "number: i"
+echo "number: $i"
 done
