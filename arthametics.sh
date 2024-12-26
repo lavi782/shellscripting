@@ -1,5 +1,4 @@
 #!/bin/bash
-str="shell scripting"
-echo ${str,,}
-
+read var_name
+echo "you entered: $var_name"
 
