@@ -1,5 +1,5 @@
 #!/bin/bash
 str="shell scripting"
-echo ${str/scripting/programming}
+echo ${str:6:9}
 
 
