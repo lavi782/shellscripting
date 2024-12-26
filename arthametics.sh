@@ -1,5 +1,5 @@
 #!/bin/bash
-str= "shell scripting"
+str="shell scripting"
 echo ${#str}
 
 
