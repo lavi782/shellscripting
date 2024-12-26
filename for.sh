@@ -4,7 +4,7 @@
 # done
 
 count=1
-while [ $count -le 3 ]; do
+while [ $count -lt 3 ]; do
 echo "count is : $count "
 ((count++))
 done
