@@ -1,5 +1,5 @@
 #!/bin/bash
 str="shell scripting"
-echo ${str:6:9}
+echo ${str:6:6}
 
 
