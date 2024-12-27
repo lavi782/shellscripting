@@ -1,5 +1,5 @@
 #!/bin/bash
-greet() {
-    echo "hello welcome to linux server in shell scripting"
+greet_user() {
+    echo "hello welcome to linux server $1"
 }
-greet
+greet_user "lavanya"
