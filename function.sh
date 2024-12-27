@@ -1,5 +1,9 @@
 #!/bin/bash
-greet_user() {
-    echo "hello welcome to linux server $1"
+check_even(){
+    if (( $1 % 2 == 0 )); then
+echo "$1 is even"
+else
+echo "$1 is odd"
+fi
 }
-greet_user "lavanya"
+check_even 8   
